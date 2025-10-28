@@ -5,7 +5,7 @@ btn.addEventListener('click', () => {
   $.ajax({
     method: 'GET',
     url: 'https://api.api-ninjas.com/v2/quotes',
-    headers: { 'X-Api-Key': 'c7FQD93kHmI5aya6jKomiA==NDxsdfOGc16wjlmv' },
+    headers: { 'X-Api-Key': 'INSERT_NINJAS_API_KEY_HERE' },
     contentType: 'application/json',
     data: { category: 'success' },
     success: function(result) {
