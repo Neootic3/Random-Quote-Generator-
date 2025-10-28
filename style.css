@@ -1,0 +1,71 @@
+/* Basic layout */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4; /* flat neutral background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Title */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Quote text */
+.result {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 20px 0;
+  min-height: 60px;
+  color: #444;
+}
+
+/* Button */
+.btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+  .container {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
